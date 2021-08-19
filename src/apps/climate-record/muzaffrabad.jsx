@@ -12,7 +12,7 @@ const ClimateMuzaffarabad = (props) => {
       <div className="climate-record-section">
         
         <div className="row">
-            <div className="col-sm-12">
+            <div className="col-md-8 col-sm-12">
                 <table className="table table-bordered">
                     <thead>
                         <tr>
