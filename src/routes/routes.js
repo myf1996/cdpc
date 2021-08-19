@@ -14,58 +14,54 @@ import Main from "../apps/mian";
 import MonsoonRainfall from "../apps/monsoon_2021_rainfall";
 
 class Routes extends Component {
-  
-    render() {
-      return (
-        <>
-            <Switch>
-                <Route path="/about">
-                    <About/>
-                </Route>
-                
-                <Route path="/contact">
-                    <Contact/>
-                </Route>
+  render() {
+    return (
+      <>
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
 
-                <Route path="/guidlines">
-                    <Guillines/>
-                </Route>
-                <Route path="/monsoon_2021_rainfall">
-                    <MonsoonRainfall/>
-                </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
 
-                <Route path="/climate-record/islamabad/">
-                    <ClimateIslamabad/>
-                </Route>
-                <Route path="/climate-record/karachi/">
-                    <ClimateKarachi/>
-                </Route>
-                <Route path="/climate-record/lahore/">
-                    <ClimateLahore/>
-                </Route>
-                <Route path="/climate-record/peshawar/">
-                    <ClimatePeshawar/>
-                </Route>
-                <Route path="/climate-record/quetta/">
-                    <ClimateQuetta/>
-                </Route>
-                <Route path="/climate-record/gilgit/">
-                    <ClimateGilgit/>
-                </Route>
-                <Route path="/climate-record/muzaffarabad/">
-                    <ClimateMuzaffarabad/>
-                </Route>
+          <Route path="/guidlines">
+            <Guillines />
+          </Route>
+          <Route path="/monsoon_2021_rainfall">
+            <MonsoonRainfall />
+          </Route>
 
+          <Route path="/climate-record/islamabad/">
+            <ClimateIslamabad />
+          </Route>
+          <Route path="/climate-record/karachi/">
+            <ClimateKarachi />
+          </Route>
+          <Route path="/climate-record/lahore/">
+            <ClimateLahore />
+          </Route>
+          <Route path="/climate-record/peshawar/">
+            <ClimatePeshawar />
+          </Route>
+          <Route path="/climate-record/quetta/">
+            <ClimateQuetta />
+          </Route>
+          <Route path="/climate-record/gilgit/">
+            <ClimateGilgit />
+          </Route>
+          <Route path="/climate-record/muzaffarabad/">
+            <ClimateMuzaffarabad />
+          </Route>
 
-                <Route path="/">
-                    <Main />
-                </Route>
-              <Redirect to="/" />
-            </Switch>
-          
-        </>
-      );
-    }
+          <Route path="/">
+            <Main />
+          </Route>
+          <Redirect to="/" />
+        </Switch>
+      </>
+    );
   }
-  export default Routes;
-  
+}
+export default Routes;
