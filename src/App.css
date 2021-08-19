@@ -7,7 +7,7 @@
 }
 
 .header {
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
   padding: 18px;
   border-radius: 5px 5px 30px 30px; 
 }
@@ -22,7 +22,7 @@
 }
 .header-heading2 {
   text-align: center;
-  color: rgba(0,0,0,.70);
+  color: rgba(255,255,255,.90);
   font-weight: 500;
   letter-spacing: 5px;
     word-spacing: 5px;
@@ -35,7 +35,7 @@
 
 .header-heading4 {
   text-align: center;
-  color: rgba(0,0,0,.55);
+  color: rgba(255,255,255,.60);
 }
 
 .navitem-center {
