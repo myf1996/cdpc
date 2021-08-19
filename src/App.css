@@ -1,38 +1,561 @@
-.App {
+/*======================================
+  Start Header CSS
+========================================*/
+
+.header {
+  background-color: #fafafa;
+  padding: 18px;
+}
+
+.logo {
+  text-align: -webkit-center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logos{
+  width: 110px;
+}
+.header-heading2 {
+  text-align: center;
+  color: rgba(0,0,0,.70);
+  font-weight: 500;
+  letter-spacing: 5px;
+    word-spacing: 5px;
+  /* -webkit-transform: scale(1.3,1);
+  -moz-transform: scale(1.3,1);
+  -ms-transform: scale(1.3,1);
+  -o-transform: scale(1.3,1);
+  transform: scale(1.3,1); */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header-heading4 {
+  text-align: center;
+  color: rgba(0,0,0,.55);
+}
+
+.navitem-center {
+  margin: 0 auto;
+}
+
+.navitem-center li {
+  width: 150px;
+  margin: 6px 3px 6px 3px;
+  background: #eaeaea;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+/*======================================
+  End Header CSS
+========================================*/
+
+
+
+
+
+
+
+/*======================================
+  Start Main Section CSS
+========================================*/
+
+.main-section {
+  margin-top: 25px;
+}
+
+.main-center-heading{
+  text-align: center;
+  color: #f0000099
+}
+
+
+/*======================================
+  End Main Section CSS
+========================================*/
+
+
+
+
+/*======================================
+  Start Main LeftSide CSS
+========================================*/
+
+.leftsidebar {
+  background-color: #fafafa;
+  padding: 12px 24px 12px 24px;
+  height: 640px;
+}
+
+.collapse-btn {
+  background: #eaeaea;
+  text-align: center;
+  width: 100%;
+  margin: 6px 0px 6px 0px;
+}
+
+.card-body {
+  padding: 0px !important;
+}
+
+.leftsidebar a {
+  transition: 0.5s ease-out;
+  color: rgba(0,0,0,.55);
+  text-decoration: none;
+}
+
+.leftsidebar a:hover {
+  padding: 15px;
+  transition: 0.5s ease-out;
+  color: rgb(0, 38, 255);
+  font-size: 20px;
+}
+
+/*======================================
+  End Main LeftSide CSS
+========================================*/
+
+
+/*======================================
+  Start Main RightSide CSS
+========================================*/
+.rightsidebar {
+  background-color: #fafafa;
+  padding: 12px 10px 12px 10px;
+  height: 640px;
+}
+
+.rightsidebar .header-heading4 {
+  margin-bottom: 18px;
+}
+
+.rightsidebar .new {
+  text-align: left;
+  padding: 10px;
+  margin-top: 2px;
+  margin-bottom: 8px
+}
+
+.news {
+  border: 2px solid #6c757d;
+  padding: 2px;
+  border-radius: 6px;
+}
+
+.news-marquee {
+  height: 420px;
+}
+
+.news-marquee p {
+  color: rgba(0,0,0,.55);
+  display: list-item;  
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.news-date {
+  color: #000000;
+  float: right;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.rightsidebar ul li a {
+  transition: 0.5s ease-out;
+  color: rgba(0,0,0,.55);
+  text-decoration: none;
+}
+
+.rightsidebar ul li a:hover {
+  padding: 15px;
+  transition: 0.5s ease-out;
+  color: rgb(0, 38, 255);
+  font-size: 20px;
+}
+
+
+.news-marquee a {
+  transition: 0.2s ease-out;
+  color: rgba(0,0,0,.55);
+  text-decoration: none;
+}
+
+.news-marquee a:hover {
+  color: rgb(0, 38, 255);
+}
+/*======================================
+  End Main RightSide CSS
+========================================*/
+
+
+
+/*======================================
+  Start Main Center CSS
+========================================*/
+
+.main-img{
+  width: 100%;
+  padding: 15px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  height: 640px;
+}
+/*======================================
+  End Main Center CSS
+========================================*/
+
+
+
+/*======================================
+  Start Footer CSS
+========================================*/
+
+.footer{
+  background: aqua;
+  margin-top: 12px;
+  padding: 8px 0px 0px 0px;
+  background-color: #fafafa;
+}
+
+.footer-heading5 {
+  text-align: center;
+  color: rgba(0,0,0,.70);
+}
+
+.footer-heading6 {
+  text-align: center;
+  color: rgba(0,0,0,.70);
+}
+
+
+/*======================================
+  End Footer CSS
+========================================*/
+
+
+
+
+
+/*======================================
+  Start About CSS
+========================================*/
+
+.about-section {
+  color: rgba(0,0,0,.70);
+  min-height: 605px;
+  margin-top: 50px;
+}
+
+.about-us-heading {
+  text-align: center;
+  color: rgba(0,0,0,.70);
+}
+
+.about-section p {
+  padding: 20px;
+}
+
+/*======================================
+  End About CSS
+========================================*/
+
+
+
+
+
+/*======================================
+  Start Contact CSS
+========================================*/
+.contact-section {
+  min-height: 605px;
+}
+.contact-head {
+  margin-top: 50px;
+}
+.form-main {
+  box-shadow: 0px 0px 15px #0000001a;
+  padding: 50px;
+}
+
+
+.contact-us .title {
+  margin-bottom: 30px;
+}
+
+.sub-header {
+  margin: 0 0 20px;
+  color: rgba(0,0,0,.70);
+}
+
+.form-group input {
+  height: 38px;
+  width: 100%;
+  border: 1px solid #e6e2f5;
+  padding: 0px 20px;
+  color: rgba(0,0,0,.55);
+  border-radius: 0px;
+  font-weight: 400;
+
+}
+
+.form-group textarea {
+  height: 100px;
+  width: 100%;
+  border: 1px solid #e6e2f5;
+  padding: 15px 20px;
+  color: rgba(0,0,0,.55);
+  border-radius: 0px;
+  resize: none;
+  font-weight: 400;
+}
+
+
+.single-head {
+  padding: 35px 0px 15px 60px;
+  box-shadow: 0px 0px 15px #0000001a;
+  position: sticky;
+  top: 20px;
+  margin-bottom: 70px;
+}
+
+.single-info {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.single-info .title {
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: rgba(0,0,0,.55);
+  font-size: 18px;
+}
+
+.single-info i {
+  color: rgba(0,0,0,.55);
+  font-size: 18px;
+  position: absolute;
+  margin-left: -30px;
+}
+/*======================================
+  End Contact CSS
+========================================*/
+
+
+/*======================================
+  Start Guidline CSS
+========================================*/
+
+.guidline-section {
+  min-height: 605px;
+  margin-top: 50px;
+}
+
+.guidline-section p {
+  padding: 5px;
+  color: rgba(0,0,0,.70);;
+}
+
+tr th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.guidline-section span{
+  font-weight: 600;
+}
+
+tr td {
+  vertical-align: middle;
+}
+
+/*======================================
+  End Guildline CSS
+========================================*/
+
+
+/*======================================
+  Start Climate Record CSS
+========================================*/
+.climate-record-section{
+  margin-top: 50px;
+}
+.climate-record-section span {
+  font-size: 12px;
+}
+
+.climate-record-section th {
+  padding: 5px !important;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.climate-record-section td {
+  padding: 5px !important;
+  text-align: center;
+}
+
+/* tr th{
+  padding: 5px !important;
+}
+
+tr td{
+  padding: 5px !important;
+} */
+/*======================================
+  End Climate Record CSS
+========================================*/
+
+
+/*======================================
+  Start Monsson Rainfall CSS
+========================================*/
+
+.monsoon-rainfall-section {
+  color: rgba(0,0,0,.55);
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.monsoon-rainfall-section .monsoon-rainfall-heading2 {
+  text-align: center;
+  color: rgba(0,0,0,.70);
+}
+
+.monsoon-rainfall-section .monsoon-rainfall-heading4 {
+  text-align: center;
+  color: rgba(0,0,0,.55);
+}
+
+.monsoon-rainfall-section span{
+  color: #000000;
+  font-weight: 500;
+}
+
+.monsoon-rainfall-heading5{
+  color: rgba(0,0,0,.70);
+}
+
+
+.monsoon-rainfall-left{
+  box-shadow: 0px 0px 15px #0000001a;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.monsoon-rainfall-right{
+  box-shadow: 0px 0px 15px #0000001a;
+  padding: 50px;
+}
+
+.monsoon-rainfall-right .right-head {
+  position: sticky;
+  margin-bottom: 70px;
+}
+
+
+.lightbox-gallery {
+  background-image: linear-gradient(#4A148C, #E53935);
+  background-repeat: no-repeat;
+  color: #000;
+  overflow-x: hidden
+}
+
+.lightbox-gallery p {
+  color: #fff
+}
+
+.lightbox-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: #fff
+}
+
+@media (max-width:767px) {
+  .lightbox-gallery h2 {
+      margin-bottom: 25px;
+      padding-top: 25px;
+      font-size: 24px
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.lightbox-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px
 }
 
-.App-link {
-  color: #61dafb;
+.lightbox-gallery .intro p {
+  margin-bottom: 0
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.lightbox-gallery .photos {
+  padding-bottom: 20px
+}
+
+.lightbox-gallery .item {
+  padding-bottom: 30px
+}
+
+.lightbox-reset {
+  padding: 10px;
+  box-shadow: 0px 0px 15px #0000001a;
+}
+
+.spaceing{
+  width: 100%;
+  height: 25px;
+}
+
+/*======================================
+  End Monsson Rainfall CSS
+========================================*/
+
+
+
+
+
+
+
+
+/*======================================
+  Start Responsive CSS
+========================================*/
+@media only screen and (max-width: 1200px) and (min-width: 992px){
+  
+  .nav-item  {
+    width: 140px !important;
+    font-size: 14px !important;
   }
 }
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+  
+  .nav-item  {
+    width: 105px !important;
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 300px){
+  .container {
+    max-width: 100% !important;
+  }
+  .nav-item  {
+    width: auto !important;
+  }
+
+  .monsoon-rainfall-section .col-sm-12{
+    margin-bottom: 50px;
+  }
+
+  .contact-head .col-12 {
+    margin-top: 50px;;
+  }
+
+}
+
+
+/*======================================
+  End Responsive CSS
+========================================*/
