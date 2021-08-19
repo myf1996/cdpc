@@ -9,6 +9,7 @@
 .header {
   background-color: #fafafa;
   padding: 18px;
+  border-radius: 5px 5px 30px 30px; 
 }
 
 .logo {
