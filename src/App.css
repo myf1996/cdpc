@@ -3,7 +3,7 @@
 ========================================*/
 
 .header {
-  background-color: #e5e5e566;
+  background-color: #fafafa;
   padding: 18px;
 }
 
@@ -83,7 +83,7 @@
 ========================================*/
 
 .leftsidebar {
-  background-color: #e5e5e566;
+  background-color: #fafafa;
   padding: 12px 24px 12px 24px;
   height: 640px;
 }
@@ -121,7 +121,7 @@
   Start Main RightSide CSS
 ========================================*/
 .rightsidebar {
-  background-color: #e5e5e566;
+  background-color: #fafafa;
   padding: 12px 10px 12px 10px;
   height: 640px;
 }
@@ -197,7 +197,7 @@
 .main-img{
   width: 100%;
   padding: 15px;
-  background-color: #e5e5e566;
+  background-color: #fafafa;
   border-radius: 10px;
   height: 640px;
 }
@@ -212,9 +212,10 @@
 ========================================*/
 
 .footer{
+  background: aqua;
   margin-top: 12px;
   padding: 8px 0px 0px 0px;
-  background-color: #e5e5e566;;
+  background-color: #fafafa;
 }
 
 .footer-heading5 {
