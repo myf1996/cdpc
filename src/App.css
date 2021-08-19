@@ -1,6 +1,10 @@
 /*======================================
   Start Header CSS
 ========================================*/
+.App {
+  background-image: url(https://pakistan.gov.pk/images/bdybg.png);
+  background-repeat: repeat-x;
+}
 
 .header {
   background-color: #fafafa;
@@ -86,6 +90,7 @@
   background-color: #fafafa;
   padding: 12px 24px 12px 24px;
   height: 640px;
+  border-radius: 5px 5px 0px 0px; 
 }
 
 .collapse-btn {
@@ -124,6 +129,7 @@
   background-color: #fafafa;
   padding: 12px 10px 12px 10px;
   height: 640px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .rightsidebar .header-heading4 {
@@ -212,10 +218,10 @@
 ========================================*/
 
 .footer{
-  background: aqua;
   margin-top: 12px;
   padding: 8px 0px 0px 0px;
   background-color: #fafafa;
+  border-radius: 5px 5px 0px 0px; 
 }
 
 .footer-heading5 {
