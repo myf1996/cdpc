@@ -31,7 +31,7 @@ const RightSiderbar = (props) => {
     <>
       <div className="rightsidebar">
       <div>
-          <h4 className="header-heading4 new"> NEW</h4>
+          <h4 className="rightsidebar-heading4 new"> NEW</h4>
               <ul>
                 {newEvent.map((item) => (
                         <li><a href={item.link}>{item.title}</a></li>
@@ -41,7 +41,7 @@ const RightSiderbar = (props) => {
           </div>
      
           <div className="news">
-            <h4 className="header-heading4"> PMD-CDPC in NEWS</h4>
+            <h4 className="rightsidebar-heading4"> PMD-CDPC in NEWS</h4>
             <marquee className="news-marquee" direction="up" scrollamount="6">
                 {news.map((item) => (
                 <p><a href={item.link}>{item.title}</a><span className="news-date">{item.date}</span></p>

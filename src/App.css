@@ -137,6 +137,11 @@
   margin-bottom: 18px;
 }
 
+.rightsidebar-heading4{
+  text-align: center;
+  color: rgba(0,0,0,.70);
+}
+
 .rightsidebar .new {
   text-align: left;
   padding: 10px;
