@@ -1,10 +1,22 @@
-# Getting Started with Create React App
+## Requiremnt
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Node Version = 12.22.2
 
-## Available Scripts
+npm Version = 6.14.13
+
+git Version = 2.17.1
+
+## Clone Project
+
+git clone https://github.com/myf1996/cdpc.git
+
+
+## Available Scripts (How to Run)
 
 In the project directory, you can run:
+### `npm intall`
+
+Insall all the project dependencies
 
 ### `npm start`
 
